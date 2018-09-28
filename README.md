@@ -1,2 +1,2 @@
 # taskmanager
-A electron application remember tasks.
+A electron application which helps us to remember tasks.
