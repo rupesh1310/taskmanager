@@ -11,4 +11,6 @@ app.on('ready', () => {
     resizeable: false
   });
 mainWindow.loadURL(`file://${__dirname}/src/index.html`);
+  new Tray();
+  
 });
