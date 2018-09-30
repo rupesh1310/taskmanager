@@ -1,5 +1,5 @@
 const electron = require('electron');
-const { app, BrowserWindow } = electron;
+const { app, BrowserWindow, Tray } = electron;
 
 let mainWindow;
 
