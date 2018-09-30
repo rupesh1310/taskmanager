@@ -5,5 +5,5 @@ let mainWindow;
 
 app.on('ready'. () => {
   mainWindow = new BrowserWindow({});
-mainWindow.loadURL(`file://${__dirname}/`);
+mainWindow.loadURL(`file://${__dirname}/src/index.html`);
 });
