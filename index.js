@@ -7,7 +7,8 @@ app.on('ready', () => {
   mainWindow = new BrowserWindow({
     height: 500,
     width: 300,
-    frame: false
+    frame: false,
+    resizeable: false
   });
 mainWindow.loadURL(`file://${__dirname}/src/index.html`);
 });
