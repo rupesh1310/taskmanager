@@ -9,7 +9,7 @@ app.on('ready', () => {
     height: 500,
     width: 300,
     frame: false,
-    resizeable: false
+    resizeable: false,
     show: false //create a browserWindow but dont show it to the user
   });
 mainWindow.loadURL(`file://${__dirname}/src/index.html`);
