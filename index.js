@@ -10,6 +10,7 @@ app.on('ready', () => {
     width: 300,
     frame: false,
     resizeable: false
+    show: false //create a browserWindow but dont show it to the user
   });
 mainWindow.loadURL(`file://${__dirname}/src/index.html`);
   const iconName = process.platform === 'win32' ? 'windows-icon.png' : 'iconTemplate.png';
